@@ -15,18 +15,27 @@
 
             <section class="journalEntries">
                 <article class="entry">
-                    <form class="entry__editButton" action=""></form>
-                    <form class ="entry__deleteButton" action=""></form>
                 </article>
             </section>
             <section class="newEntry">
-
+                <form>
+                    <input type="text" value="Title">
+                    <input type="text" value="Date"><br>
+                    <textarea></textarea><br>
+                    <select name="mood">
+                        <option value="happy">Happy</option>
+                        <option value="sad">Sad</option>
+                    </select>
+                    <input type="button" class="entry__editButton" value="Edit">
+                    <input type="button" class ="entry__deleteButton" value="Delete">
+                    <input type="submit" value="Submit">
+                </form>
             </section>
 
         </div>
     </main>
 
     <footer></footer>
-
+    <script type="module" src="scripts/main.js"></script>
 </body>
 </html>
